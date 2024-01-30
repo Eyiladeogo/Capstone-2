@@ -1,0 +1,46 @@
+#hero{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+body{
+    background-color: #FFF3CF;
+}
+
+#hero button{
+    background-color: #FFF3CF;
+    outline: none;
+    border: #637A9F 3px solid;
+    border-radius: 10px;
+}
+
+#hero img{
+    background-color: #E8C872;
+}
+
+#contact{
+    background-color: #E8C872;
+    height: 80vh;
+    padding: 100px;
+
+}
+
+h1{
+    font-family: YAEblGlbZeY-0;
+    line-height: 0.75301205em;
+    font-weight: bold;
+    color: #637A9F;
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Libre Baskerville', serif;
+color: #637A9F;
+}
+
+#contact div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logos{
+    display: span;
+}
